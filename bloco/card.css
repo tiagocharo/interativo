@@ -1,0 +1,49 @@
+
+[data-color="first"] {
+	background-color: blue;
+}
+[data-color="second"] {
+	background-color: yellow;
+}
+[data-color="third"] {
+	background-color: green;
+}
+[data-color="fourth"] {
+	background-color: red;
+}
+
+.card {
+	width: 20%;
+	display: inline-block;
+	box-sizing: border-box;
+	padding: 16px;
+	position: relative;
+	margin-top: 30px;
+	height: 100%;
+}
+.card li {
+	margin-bottom: 5px;
+}
+.wrap-card-colors {
+	position: absolute;
+	top: -16px;
+	left: 0;
+}
+p {
+	padding-top: 15px;
+}
+
+.card-colors {
+	height: 32px;
+	width: 32px;
+	box-sizing: bordere-box;
+	text-indent: -9999px;
+	overflow: hidden;
+	border-radius: 50px;
+	display: inline-block;
+	border: 2px solid black;
+}
+.card-color, .isActive {
+	border-width: 4px;
+}
+
